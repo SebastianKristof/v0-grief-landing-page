@@ -19,7 +19,7 @@ export default function HomePage() {
       <section className="px-8 py-8 md:px-16 md:py-12">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-6">
-            <p className="text-base font-medium text-muted-foreground mb-6 tracking-wide uppercase">
+            <p className="text-muted-foreground mb-6 tracking-wide uppercase text-lg font-semibold">
               When Pain Has Meaning: A New Approach to Grief and Mortality
             </p>
 
@@ -56,7 +56,7 @@ export default function HomePage() {
       <section className="px-8 py-12 md:px-16 md:py-20 bg-secondary">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-6">
-            <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase">The Problem</p>
+            <p className="text-muted-foreground mb-8 tracking-wide uppercase text-lg font-semibold">The Problem</p>
 
             <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-16 text-balance">
               Conventional approaches fail
@@ -133,7 +133,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16 bg-background">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase">My Approach</p>
+          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-lg font-semibold">My Approach</p>
 
           <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance">The middle way</h2>
 
@@ -204,7 +204,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16 bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
+          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-center text-lg font-semibold">
             Who I Work With
           </p>
 
@@ -281,7 +281,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16 bg-background">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase">How We Work</p>
+          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-lg font-semibold">How We Work</p>
 
           <h2 className="font-serif text-4xl md:text-5xl font-light mb-16 text-balance">Structured programs</h2>
 
@@ -347,7 +347,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16 bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
+          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-center text-lg font-semibold">
             About Me
           </p>
 
@@ -372,7 +372,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16 bg-background">
         <div className="max-w-4xl mx-auto">
-          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">Vision</p>
+          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-center text-lg font-semibold">Vision</p>
 
           <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance text-center">
             Through darkness to the light
@@ -394,7 +394,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16 text-background bg-sidebar-foreground">
         <div className="max-w-4xl mx-auto">
-          <p className="text-base font-medium text-background/70 mb-8 tracking-wide uppercase text-center">
+          <p className="font-medium text-background/70 mb-8 tracking-wide uppercase text-center text-lg">
             Next Steps
           </p>
 
