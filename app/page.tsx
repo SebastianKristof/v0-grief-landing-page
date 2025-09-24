@@ -53,7 +53,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 md:py-20 bg-muted/60">
+      <section className="px-8 py-12 md:px-16 md:py-20 bg-secondary">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-6">
             <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase">The Problem</p>
@@ -131,16 +131,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 bg-accent/20">
+      <section className="px-8 py-12 md:px-16 bg-background">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase">My Approach</p>
 
           <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance">The middle way</h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-16">
-            Neither medicalization nor esoteric shortcuts. A structured, evidence-informed approach grounded in deep
-            respect for your experience. Pain is not the enemy. Where others try to suppress, normalize, or console, I
-            create space to fully feel and integrate.
+            Pain is not the enemy. Where others try to suppress, normalize, or console, I create space to fully feel and
+            integrate. I offer a structured, evidence-informed approach grounded in deep respect for your experience.
           </p>
 
           <div className="mb-16">
@@ -203,7 +202,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 bg-muted/50">
+      <section className="px-8 py-12 md:px-16 bg-secondary">
         <div className="max-w-4xl mx-auto">
           <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
             Who I Work With
@@ -280,7 +279,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 bg-accent/30">
+      <section className="px-8 py-12 md:px-16 bg-background">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase">How We Work</p>
 
@@ -346,7 +345,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 bg-muted/60">
+      <section className="px-8 py-12 md:px-16 bg-secondary">
         <div className="max-w-4xl mx-auto">
           <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
             About Me
@@ -371,7 +370,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16">
+      <section className="px-8 py-12 md:px-16 bg-background">
         <div className="max-w-4xl mx-auto">
           <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">Vision</p>
 
@@ -393,7 +392,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 bg-foreground text-background">
+      <section className="px-8 py-12 md:px-16 text-background bg-sidebar-foreground">
         <div className="max-w-4xl mx-auto">
           <p className="text-base font-medium text-background/70 mb-8 tracking-wide uppercase text-center">
             Next Steps
@@ -403,7 +402,7 @@ export default function HomePage() {
             Interested in learning more?
           </h2>
 
-          <p className="text-lg text-background/80 leading-relaxed max-w-3xl mx-auto mb-16">
+          <p className="text-lg text-background/80 leading-relaxed max-w-3xl mx-auto mb-16 text-center">
             Download the whitepaper to understand the approach in detail, or reach out directly to discuss your specific
             situation.
           </p>
