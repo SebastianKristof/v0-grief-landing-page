@@ -7,41 +7,54 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <nav className="flex items-center justify-between px-8 py-8 md:px-16">
-        <div className="font-serif text-2xl font-light text-foreground italic">Moment</div>
+        <div className="font-serif text-2xl font-light text-foreground italic">The Mortality Institute</div>
         <Button
           variant="outline"
           className="rounded-full px-8 py-3 bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
         >
-          Request Consultation
+          Reach Out
           <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </nav>
 
-      <section className="px-8 py-20 md:px-16 md:py-32">
+      <section className="px-8 py-12 md:px-16 md:py-20">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-16">
-            <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase">When Pain Has Meaning: A New Approach to Grief and Mortality</p>
+          <div className="text-center mb-6">
+            <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase">
+              When Pain Has Meaning: A New Approach to Grief and Mortality
+            </p>
 
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light leading-tight text-balance mb-12 text-foreground">
               Where others suppress grief, I help you live through it
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-16">
-              A structured, confidential practice for discerning individuals seeking to transform grief into meaning, strength, and renewed purpose.
+              A structured, confidential practice for discerning individuals seeking to transform grief into meaning,
+              strength, and renewed purpose.
             </p>
 
-            <Button
-              size="lg"
-              className="rounded-full px-12 py-6 text-base bg-primary hover:bg-primary/90 transition-all duration-300"
-            >
-              DOWNLOAD WHITEPAPER
-              <ArrowRight className="ml-3 h-5 w-5" />
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button
+                size="lg"
+                className="rounded-full px-12 py-6 text-base bg-primary hover:bg-primary/90 transition-all duration-300"
+              >
+                DOWNLOAD WHITEPAPER
+                <ArrowRight className="ml-3 h-5 w-5" />
+              </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="rounded-full px-12 py-6 text-base bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              >
+                REACH OUT
+                <ArrowRight className="ml-3 h-5 w-5" />
+              </Button>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="px-8 py-20 md:px-16">
+      <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto">
           <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
             The Problem
@@ -52,7 +65,8 @@ export default function HomePage() {
           </h2>
 
           <blockquote className="font-serif text-xl md:text-2xl font-light italic text-center text-muted-foreground max-w-3xl mx-auto mb-20 ml-24 mr-6">
-            "I don't want to be consoled, distracted, or cheered up! I want someone I can lean on, so I can go through this experience safely and make sense of it."
+            "I don't want to be consoled, distracted, or cheered up! I want someone I can lean on, so I can go through
+            this experience safely and make sense of it."
           </blockquote>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-16">
@@ -112,12 +126,13 @@ export default function HomePage() {
           </div>
 
           <p className="text-muted-foreground leading-relaxed text-center max-w-2xl mx-auto">
-            All these approaches share a common theme: they feel disrespectful to the value of genuine human pain and suffering, and dismissive of your particular situation.
+            All these approaches share a common theme: they feel disrespectful to the value of genuine human pain and
+            suffering, and dismissive of your particular situation.
           </p>
         </div>
       </section>
 
-      <section className="px-8 py-20 md:px-16">
+      <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-center mb-16">
             <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-8 border border-primary/20 max-w-2xl">
@@ -171,7 +186,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-20 md:px-16">
+      <section className="px-8 py-12 md:px-16">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase">My Approach</p>
 
@@ -193,7 +208,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-20 md:px-16">
+      <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto">
           <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
             Who I Work With
@@ -211,36 +226,24 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6">
-              <h3 className="font-serif text-xl text-foreground">We Should Talk If You Are Experiencing</h3>
+              <h3 className="font-serif text-xl text-foreground">When Most Clients Reach Out</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-foreground">Acute grief (first months after loss)</span>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      The raw, overwhelming period immediately following a death when everything feels impossible and
-                      the world seems to have stopped making sense.
-                    </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-foreground">Stuck or complicated grief</span>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      When grief persists intensely beyond what feels normal, or when you feel trapped in patterns that
-                      aren't serving your healing.
-                    </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-foreground">Preparation for anticipated loss</span>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      When someone you love is dying and you're struggling with the waiting, helplessness, and
-                      anticipatory grief.
-                    </p>
                   </div>
                 </li>
               </ul>
@@ -253,29 +256,18 @@ export default function HomePage() {
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-foreground">Diagnosis with uncertain prognosis</span>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      Facing your own mortality through illness, when the future becomes uncertain and you need support
-                      navigating this new reality.
-                    </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-foreground">Existential and midlife transitions</span>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      When life changes force you to confront mortality and meaning, questioning purpose and direction.
-                    </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-foreground">Professional burnout with mortality</span>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      For doctors, lawyers, caregivers whose work regularly exposes them to death and suffering, leading
-                      to compassion fatigue.
-                    </p>
                   </div>
                 </li>
               </ul>
@@ -293,7 +285,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-20 md:px-16">
+      <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase">How We Work</p>
 
@@ -312,7 +304,7 @@ export default function HomePage() {
                   variant="outline"
                   className="rounded-full px-8 py-3 bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
                 >
-                  LEARN MORE
+                  REACH OUT
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
@@ -332,7 +324,7 @@ export default function HomePage() {
                   path toward living forward with clarity.
                 </p>
                 <Button className="rounded-full px-8 py-3 bg-primary hover:bg-primary/90 transition-all duration-300">
-                  REQUEST CONSULTATION
+                  REACH OUT
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
@@ -350,7 +342,7 @@ export default function HomePage() {
                   variant="outline"
                   className="rounded-full px-8 py-3 bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
                 >
-                  DISCUSS NEEDS
+                  REACH OUT
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
@@ -359,9 +351,53 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-20 md:px-16">
+      <section className="px-8 py-12 md:px-16">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">About Me</p>
+
+          <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-12 text-balance">
+            A different path
+          </h2>
+
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+              M.D. with postdoctoral fellowships at Yale and UCSD. I chose not to pursue a U.S. medical license,
+              refusing to reduce human suffering to diagnoses and prescriptions.
+            </p>
+
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Through years of research and practice, I developed a method integrating subconscious work, regression,
+              and therapeutic rituals — structured, evidence-based, and deeply transformative.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-8 py-12 md:px-16">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">Vision</p>
+
+          <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-12 text-balance">
+            Facing the elephant in the room
+          </h2>
+
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+              Mortality touches every area of life, yet our culture offers little genuine support beyond rigid religious
+              practices or medical models that pathologize normal human experience.
+            </p>
+
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Accepting mortality isn't grim resignation — it's the path to longevity and fulfillment. By facing death
+              directly, we discover life more fully.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-8 py-12 md:px-16">
         <div className="max-w-2xl mx-auto text-center">
-          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase">Stay Connected</p>
+          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase">LEARN MORE</p>
 
           <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance">Download whitepaper</h2>
 
@@ -376,10 +412,19 @@ export default function HomePage() {
               placeholder="Email"
               className="rounded-full px-6 py-4 text-center bg-card border-2 border-primary/20 focus:border-primary transition-all duration-300"
             />
-            <Button className="w-full rounded-full px-8 py-4 bg-primary hover:bg-primary/90 transition-all duration-300">
-              SUBSCRIBE
-              <ArrowRight className="ml-3 h-5 w-5" />
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Button className="flex-1 rounded-full px-8 py-4 bg-primary hover:bg-primary/90 transition-all duration-300">
+                DOWNLOAD
+                <ArrowRight className="ml-3 h-5 w-5" />
+              </Button>
+              <Button
+                variant="outline"
+                className="flex-1 rounded-full px-8 py-4 bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              >
+                REACH OUT
+                <ArrowRight className="ml-3 h-5 w-5" />
+              </Button>
+            </div>
           </div>
 
           <div className="flex justify-center gap-4 mt-12">
@@ -408,7 +453,7 @@ export default function HomePage() {
       <footer className="px-8 py-12 md:px-16 border-t border-border/50">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="font-serif text-2xl font-light italic text-foreground">Moment</div>
+            <div className="font-serif text-2xl font-light italic text-foreground">The Mortality Institute</div>
             <div className="flex items-center gap-8 text-sm text-muted-foreground">
               <a href="#" className="hover:text-foreground transition-colors">
                 Privacy
@@ -421,7 +466,9 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div className="text-center text-sm text-muted-foreground mt-8">© 2025 Moment. All rights reserved.</div>
+          <div className="text-center text-sm text-muted-foreground mt-8">
+            © 2025 The Mortality Institute. All rights reserved.
+          </div>
         </div>
       </footer>
     </div>
