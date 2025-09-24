@@ -144,14 +144,14 @@ export default function HomePage() {
           </p>
 
           <div className="mb-16">
-            <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-8 border border-primary/20 max-w-2xl">
-              <h4 className="font-serif text-lg mb-6 text-foreground">My Core Principles</h4>
-              <div className="space-y-4">
+            <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-8 border border-primary/20 max-w-xl mx-auto">
+              <h4 className="font-serif text-lg mb-6 text-left text-foreground">My Core Principles</h4>
+              <div className="space-y-4 text-left">
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
+                  <div className="text-left">
                     <span className="font-medium text-base block mb-1 text-foreground">The middle way</span>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
                       A balanced approach between medicalization and esoteric shortcuts, grounded in evidence and
                       respect.
                     </p>
@@ -160,11 +160,11 @@ export default function HomePage() {
 
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
+                  <div className="text-left">
                     <span className="font-medium text-base block mb-1 text-foreground">
                       Continuing bonds over "moving on"
                     </span>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
                       Honoring memory while releasing destructive pain. You don't need to "get over" someone you love.
                     </p>
                   </div>
@@ -172,9 +172,9 @@ export default function HomePage() {
 
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
+                  <div className="text-left">
                     <span className="font-medium text-base block mb-1 text-foreground">Memory is sacred</span>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
                       Letting go of destructive pain does not mean betrayal of the one who has died.
                     </p>
                   </div>
@@ -182,9 +182,9 @@ export default function HomePage() {
 
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
+                  <div className="text-left">
                     <span className="font-medium text-base block mb-1 text-foreground">Each person is unique</span>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
                       There is no single "right" way or timeline to grieve. Your experience is valid and individual.
                     </p>
                   </div>
@@ -392,8 +392,8 @@ export default function HomePage() {
       </section>
 
       <section className="px-8 py-12 md:px-16">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance text-center">
             Interested in learning more?
           </h2>
 
