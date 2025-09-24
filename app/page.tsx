@@ -24,7 +24,7 @@ export default function HomePage() {
             </p>
 
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light leading-tight text-balance mb-8 text-foreground">
-              Where others suppress grief, I help you find its meaning
+              When others suppress grief, I help you find its meaning
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-12">
