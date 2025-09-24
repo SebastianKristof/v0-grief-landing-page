@@ -19,7 +19,7 @@ export default function HomePage() {
       <section className="px-8 py-12 md:px-16 md:py-20">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-6">
-            <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase">
+            <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase">
               When Pain Has Meaning: A New Approach to Grief and Mortality
             </p>
 
@@ -55,7 +55,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto">
-          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
+          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
             The Problem
           </p>
 
@@ -133,7 +133,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase">My Approach</p>
+          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase">My Approach</p>
 
           <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance">The middle way</h2>
 
@@ -205,7 +205,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto">
-          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
+          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
             Who I Work With
           </p>
 
@@ -282,7 +282,7 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase">How We Work</p>
+          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase">How We Work</p>
 
           <h2 className="font-serif text-4xl md:text-5xl font-light mb-16 text-balance">Structured programs</h2>
 
@@ -348,7 +348,9 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto">
-          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">About Me</p>
+          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
+            About Me
+          </p>
 
           <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-12 text-balance">
             A different path
@@ -371,9 +373,9 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto">
-          <p className="text-sm font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">Vision</p>
+          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">Vision</p>
 
-          <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-12 text-balance">
+          <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance text-center">
             Through darkness to the light
           </h2>
 
@@ -393,6 +395,10 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto">
+          <p className="text-base font-medium text-muted-foreground mb-8 tracking-wide uppercase text-center">
+            Next Steps
+          </p>
+
           <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance text-center">
             Interested in learning more?
           </h2>
@@ -424,22 +430,30 @@ export default function HomePage() {
 
       <footer className="px-8 py-12 md:px-16 border-t border-border/50">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="font-serif text-2xl font-light italic text-foreground">The Mortality Institute</div>
-            <div className="flex items-center gap-8 text-sm text-muted-foreground">
-              <a href="#" className="hover:text-foreground transition-colors">
-                Privacy
-              </a>
-              <a href="#" className="hover:text-foreground transition-colors">
-                Terms
-              </a>
-              <a href="mailto:contact@example.com" className="hover:text-foreground transition-colors">
-                Contact
-              </a>
-            </div>
+          <div className="mt-12 pt-8 border-t border-border/30">
+            <p className="text-muted-foreground leading-relaxed max-w-4xl mx-auto text-center text-sm">
+              <strong>Disclaimer:</strong> This is not medical treatment and does not replace psychiatric or religious
+              care. I do not diagnose, prescribe, or treat any illness or disorder. This is a private therapeutic
+              practice dedicated to helping people live through the hardest passages of life with dignity. This is not a
+              crisis service; in an emergency, please contact local emergency resources or crisis hotlines immediately.
+            </p>
           </div>
-          <div className="text-center text-sm text-muted-foreground mt-8">
-            © 2025 The Mortality Institute. All rights reserved.
+
+          <div className="mt-8 pt-8 border-t border-border/30">
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
+              <div className="flex items-center gap-8 text-sm text-muted-foreground">
+                <a href="#" className="hover:text-foreground transition-colors">
+                  Privacy
+                </a>
+                <a href="#" className="hover:text-foreground transition-colors">
+                  Terms
+                </a>
+                <a href="mailto:contact@example.com" className="hover:text-foreground transition-colors">
+                  Contact
+                </a>
+              </div>
+              <div className="text-sm text-muted-foreground">© 2025 The Mortality Institute. All rights reserved.</div>
+            </div>
           </div>
         </div>
       </footer>
