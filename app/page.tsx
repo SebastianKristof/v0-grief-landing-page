@@ -143,48 +143,48 @@ export default function HomePage() {
             create space to fully feel and integrate.
           </p>
 
-          <div className="flex justify-center mb-16">
-            <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-8 border border-primary/20 max-w-xl">
-              <h4 className="font-serif text-lg mb-6 text-left text-foreground">My Core Principles</h4>
-              <div className="space-y-6">
-                <div className="flex items-start gap-2">
-                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+          <div className="mb-16">
+            <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-8 border border-primary/20 max-w-2xl">
+              <h4 className="font-serif text-lg mb-6 text-foreground">My Core Principles</h4>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-base block mb-1 text-foreground">The middle way</span>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-sm text-muted-foreground leading-relaxed">
                       A balanced approach between medicalization and esoteric shortcuts, grounded in evidence and
                       respect.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-2">
-                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-base block mb-1 text-foreground">
                       Continuing bonds over "moving on"
                     </span>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-sm text-muted-foreground leading-relaxed">
                       Honoring memory while releasing destructive pain. You don't need to "get over" someone you love.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-2">
-                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-base block mb-1 text-foreground">Memory is sacred</span>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-sm text-muted-foreground leading-relaxed">
                       Letting go of destructive pain does not mean betrayal of the one who has died.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-2">
-                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <span className="font-medium text-base block mb-1 text-foreground">Each person is unique</span>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-sm text-muted-foreground leading-relaxed">
                       There is no single "right" way or timeline to grieve. Your experience is valid and individual.
                     </p>
                   </div>
@@ -210,7 +210,7 @@ export default function HomePage() {
           </p>
 
           <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-12 text-balance">
-            Mortality awareness
+            Who is this for?
           </h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto mb-16">
@@ -221,7 +221,7 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6">
-              <h3 className="font-serif text-xl text-foreground">When Most Clients Reach Out</h3>
+              <h3 className="font-serif text-xl text-foreground">When To Reach Out</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -393,7 +393,9 @@ export default function HomePage() {
 
       <section className="px-8 py-12 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance">Interested in learning more?</h2>
+          <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance">
+            Interested in learning more?
+          </h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto mb-16">
             Download the whitepaper to understand the approach in detail, or reach out directly to discuss your specific
