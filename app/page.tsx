@@ -28,8 +28,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-12">
-              A structured, confidential practice for discerning individuals seeking to transform grief into meaning,
-              strength, and renewed purpose.
+              Structured, confidential practice for discerning individuals facing grief, mortality and life’s deepest transitions.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -193,9 +192,9 @@ export default function HomePage() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-12">
-            <div className="space-y-6">
+            <div className="space-y-6 text-center md:text-left md:px-16">
               <h3 className="font-serif text-xl text-foreground">Key Areas Of Focus</h3>
-              <ul className="space-y-4">
+              <ul className="space-y-4 text-left inline-block md:block">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
@@ -217,9 +216,9 @@ export default function HomePage() {
               </ul>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-6 text-center md:text-left md:px-16">
               <h3 className="font-serif text-xl text-foreground">Additional Situations</h3>
-              <ul className="space-y-4">
+              <ul className="space-y-4 text-left inline-block md:block">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
