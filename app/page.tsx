@@ -5,25 +5,25 @@ import { ArrowRight } from "lucide-react"
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
-      <nav className="flex items-center justify-between px-8 py-8 md:px-16">
-        <div className="font-serif text-2xl font-light text-foreground italic">The Mortality Institute</div>
+      <nav className="flex items-center justify-between px-6 py-6 md:px-12 lg:px-16">
+        <div className="font-serif text-xl md:text-2xl font-normal text-foreground italic">The Mortality Institute</div>
         <Button
           variant="outline"
-          className="rounded-full px-8 py-3 bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+          className="rounded-full px-6 py-2 md:px-8 md:py-3 bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-sm md:text-base"
         >
           Reach Out
           <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </nav>
 
-      <section className="px-8 py-8 md:px-16 md:py-12">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-6">
-            <p className="text-muted-foreground mb-6 tracking-wide uppercase text-lg font-semibold">
+      <section className="px-6 py-12 md:px-12 md:py-20 lg:px-16 lg:py-24">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-8">
+            <p className="text-muted-foreground mb-8 tracking-wide uppercase text-base md:text-lg font-semibold">
               When Pain Has Meaning: A New Approach to Grief and Mortality
             </p>
 
-            <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light leading-tight text-balance mb-8 text-foreground">
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal leading-tight text-balance mb-8 text-foreground">
               When others suppress grief, I help you find its meaning
             </h1>
 
@@ -35,88 +35,88 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
                 size="lg"
-                className="rounded-full px-12 py-6 text-base bg-primary hover:bg-primary/90 transition-all duration-300"
+                className="rounded-full px-8 py-4 md:px-12 md:py-6 text-sm md:text-base bg-primary hover:bg-primary/90 transition-all duration-300 w-full sm:w-auto"
               >
                 DOWNLOAD WHITEPAPER
-                <ArrowRight className="ml-3 h-5 w-5" />
+                <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
               </Button>
               <Button
                 variant="outline"
                 size="lg"
-                className="rounded-full px-12 py-6 text-base bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                className="rounded-full px-8 py-4 md:px-12 md:py-6 text-sm md:text-base bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300 w-full sm:w-auto"
               >
                 REACH OUT
-                <ArrowRight className="ml-3 h-5 w-5" />
+                <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
               </Button>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 md:py-20 bg-secondary">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-6">
-            <p className="text-muted-foreground mb-8 tracking-wide uppercase text-lg font-semibold">The Problem</p>
+      <section className="px-6 py-12 md:px-12 md:py-20 lg:px-16 lg:py-24 bg-secondary">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-8">
+            <p className="text-muted-foreground mb-8 tracking-wide uppercase text-base md:text-lg font-semibold">The Problem</p>
 
-            <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-16 text-balance">
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-16 text-balance">
               Conventional approaches fail
             </h2>
 
-            <blockquote className="font-serif text-xl md:text-2xl font-light italic text-center text-muted-foreground max-w-3xl mx-auto mb-20 ml-24 mr-6">
+            <blockquote className="font-serif text-lg md:text-xl lg:text-2xl font-normal italic text-center text-muted-foreground max-w-3xl mx-auto mb-16 px-4 md:px-8">
               "I don't want to be consoled, distracted, or cheered up! I want someone I can lean on, so I can go through
               this experience safely and make sense of it."
             </blockquote>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
               <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Medicine</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                <CardContent className="p-6 md:p-8">
+                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Medicine</h3>
+                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
                     Reduces grief to a "disorder" or timeline. The result is suppression, not integration
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Psychology</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                <CardContent className="p-6 md:p-8">
+                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Psychology</h3>
+                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
                     Offers generalized stages that rarely fit individual reality, leaving people feeling misunderstood.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Behavioral Therapy</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                <CardContent className="p-6 md:p-8">
+                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Behavioral Therapy</h3>
+                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
                     Focuses on changing thoughts and behaviors without honoring the depth of emotional experience.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Religious Consolation</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                <CardContent className="p-6 md:p-8">
+                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Religious Consolation</h3>
+                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
                     Helpful to many, but may feel contrived or dismissive of your individual beliefs.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Well-meaning Advice</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                <CardContent className="p-6 md:p-8">
+                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Well-meaning Advice</h3>
+                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
                     "Be strong, move on" devalues your pain and seems to be more about their comfort than yours.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Esoteric Approaches</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                <CardContent className="p-6 md:p-8">
+                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Esoteric Approaches</h3>
+                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
                     Often lack evidence-based foundations and tell you what you want to hear.
                   </p>
                 </CardContent>
@@ -131,13 +131,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 bg-background">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-lg font-semibold">My Approach</p>
+      <section className="px-6 py-12 md:px-12 md:py-20 lg:px-16 lg:py-24 bg-background">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-base md:text-lg font-semibold">My Approach</p>
 
-          <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance">The middle way</h2>
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-normal mb-12 text-balance">The middle way</h2>
 
-          <p className="text-lg text-muted-foreground leading-relaxed mb-16">
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-16 max-w-3xl mx-auto">
             Pain is not the enemy. Where others try to suppress, normalize, or console, I create space to fully feel and
             integrate. I offer a structured, evidence-informed approach grounded in deep respect for your experience.
           </p>
@@ -194,21 +194,21 @@ export default function HomePage() {
 
           <Button
             variant="outline"
-            className="rounded-full px-12 py-6 text-base bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            className="rounded-full px-8 py-4 md:px-12 md:py-6 text-sm md:text-base bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >
             LEARN MORE
-            <ArrowRight className="ml-3 h-5 w-5" />
+            <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
           </Button>
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 bg-secondary">
+      <section className="px-6 py-12 md:px-12 md:py-20 lg:px-16 lg:py-24 bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-center text-lg font-semibold">
+          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-center text-base md:text-lg font-semibold">
             Who I Work With
           </p>
 
-          <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-12 text-balance">
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-12 text-balance">
             Who is this for?
           </h2>
 
