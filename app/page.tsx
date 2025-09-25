@@ -24,7 +24,7 @@ export default function HomePage() {
             </p>
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal leading-tight text-balance mb-8 text-foreground">
-              When others suppress grief, I help you find its meaning
+              Others suppress grief; I help you find its meaning
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-12">
@@ -67,60 +67,48 @@ export default function HomePage() {
               this experience safely and make sense of it."
             </blockquote>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-6 md:p-8">
-                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Medicine</h3>
-                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-                    Reduces grief to a "disorder" or timeline. The result is suppression, not integration
-                  </p>
-                </CardContent>
-              </Card>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16 max-w-6xl mx-auto">
+              <div className="group border-l-4 border-primary/30 pl-6 md:pl-8 py-6 pr-4 md:pr-6 rounded-r-lg bg-gradient-to-r from-card/50 to-card/80 md:hover:from-background md:hover:to-card md:hover:border-primary/50 md:hover:shadow-sm transition-all duration-300 cursor-default">
+                <h3 className="font-serif text-xl md:text-2xl mb-3 text-foreground md:group-hover:text-primary transition-colors duration-300">Medicine</h3>
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed md:group-hover:text-foreground/80 transition-colors duration-300">
+                  Reduces grief to a "disorder" or timeline. The result is suppression, not integration.
+                </p>
+              </div>
 
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-6 md:p-8">
-                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Psychology</h3>
-                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-                    Offers generalized stages that rarely fit individual reality, leaving people feeling misunderstood.
-                  </p>
-                </CardContent>
-              </Card>
+              <div className="group border-l-4 border-primary/30 pl-6 md:pl-8 py-6 pr-4 md:pr-6 rounded-r-lg bg-gradient-to-r from-card/50 to-card/80 md:hover:from-background md:hover:to-card md:hover:border-primary/50 md:hover:shadow-sm transition-all duration-300 cursor-default">
+                <h3 className="font-serif text-xl md:text-2xl mb-3 text-foreground md:group-hover:text-primary transition-colors duration-300">Psychology</h3>
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed md:group-hover:text-foreground/80 transition-colors duration-300">
+                  Offers generalized stages that rarely fit individual reality, leaving people feeling misunderstood.
+                </p>
+              </div>
 
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-6 md:p-8">
-                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Behavioral Therapy</h3>
-                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-                    Focuses on changing thoughts and behaviors without honoring the depth of emotional experience.
-                  </p>
-                </CardContent>
-              </Card>
+              <div className="group border-l-4 border-primary/30 pl-6 md:pl-8 py-6 pr-4 md:pr-6 rounded-r-lg bg-gradient-to-r from-card/50 to-card/80 md:hover:from-background md:hover:to-card md:hover:border-primary/50 md:hover:shadow-sm transition-all duration-300 cursor-default">
+                <h3 className="font-serif text-xl md:text-2xl mb-3 text-foreground md:group-hover:text-primary transition-colors duration-300">Behavioral Therapy</h3>
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed md:group-hover:text-foreground/80 transition-colors duration-300">
+                  Focuses on changing thoughts and behaviors without honoring the depth of emotional experience.
+                </p>
+              </div>
 
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-6 md:p-8">
-                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Religious Consolation</h3>
-                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-                    Helpful to many, but may feel contrived or dismissive of your individual beliefs.
-                  </p>
-                </CardContent>
-              </Card>
+              <div className="group border-l-4 border-primary/30 pl-6 md:pl-8 py-6 pr-4 md:pr-6 rounded-r-lg bg-gradient-to-r from-card/50 to-card/80 md:hover:from-background md:hover:to-card md:hover:border-primary/50 md:hover:shadow-sm transition-all duration-300 cursor-default">
+                <h3 className="font-serif text-xl md:text-2xl mb-3 text-foreground md:group-hover:text-primary transition-colors duration-300">Religious Consolation</h3>
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed md:group-hover:text-foreground/80 transition-colors duration-300">
+                  Helpful to many, but may feel contrived or dismissive of your individual beliefs.
+                </p>
+              </div>
 
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-6 md:p-8">
-                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Well-meaning Advice</h3>
-                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-                    "Be strong, move on" devalues your pain and seems to be more about their comfort than yours.
-                  </p>
-                </CardContent>
-              </Card>
+              <div className="group border-l-4 border-primary/30 pl-6 md:pl-8 py-6 pr-4 md:pr-6 rounded-r-lg bg-gradient-to-r from-card/50 to-card/80 md:hover:from-background md:hover:to-card md:hover:border-primary/50 md:hover:shadow-sm transition-all duration-300 cursor-default">
+                <h3 className="font-serif text-xl md:text-2xl mb-3 text-foreground md:group-hover:text-primary transition-colors duration-300">Well-meaning Advice</h3>
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed md:group-hover:text-foreground/80 transition-colors duration-300">
+                  "Be strong, move on" devalues your pain and seems to be more about their comfort than yours.
+                </p>
+              </div>
 
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-6 md:p-8">
-                  <h3 className="font-serif text-lg md:text-xl mb-4 text-foreground">Esoteric Approaches</h3>
-                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-                    Often lack evidence-based foundations and tell you what you want to hear.
-                  </p>
-                </CardContent>
-              </Card>
+              <div className="group border-l-4 border-primary/30 pl-6 md:pl-8 py-6 pr-4 md:pr-6 rounded-r-lg bg-gradient-to-r from-card/50 to-card/80 md:hover:from-background md:hover:to-card md:hover:border-primary/50 md:hover:shadow-sm transition-all duration-300 cursor-default">
+                <h3 className="font-serif text-xl md:text-2xl mb-3 text-foreground md:group-hover:text-primary transition-colors duration-300">Esoteric Approaches</h3>
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed md:group-hover:text-foreground/80 transition-colors duration-300">
+                  Often lack evidence-based foundations and tell you what you want to hear.
+                </p>
+              </div>
             </div>
 
             <p className="text-muted-foreground leading-relaxed text-center max-w-2xl mx-auto">
