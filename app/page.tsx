@@ -1,458 +1,354 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Star, Play } from "lucide-react"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-background">
-      <nav className="flex items-center justify-between px-8 py-8 md:px-16">
-        <div className="font-serif text-2xl font-light text-foreground italic">The Mortality Institute</div>
-        <Button
-          variant="outline"
-          className="rounded-full px-8 py-3 bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-        >
-          Reach Out
-          <ArrowRight className="ml-2 h-4 w-4" />
-        </Button>
+    <div className="min-h-screen bg-white">
+      <nav className="flex items-center justify-center px-8 py-6">
+        <div className="font-bold text-xl text-black tracking-wide">THE MORTALITY INSTITUTE</div>
       </nav>
 
-      <section className="px-8 py-8 md:px-16 md:py-12">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-6">
-            <p className="text-muted-foreground mb-6 tracking-wide uppercase text-lg font-semibold">
-              When Pain Has Meaning: A New Approach to Grief and Mortality
-            </p>
-
-            <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light leading-tight text-balance mb-8 text-foreground">
-              When others suppress grief, I help you find its meaning
-            </h1>
-
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-12">
-              A structured, confidential practice for discerning individuals seeking to transform grief into meaning,
-              strength, and renewed purpose.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button
-                size="lg"
-                className="rounded-full px-12 py-6 text-base bg-primary hover:bg-primary/90 transition-all duration-300"
-              >
-                DOWNLOAD WHITEPAPER
-                <ArrowRight className="ml-3 h-5 w-5" />
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="rounded-full px-12 py-6 text-base bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              >
-                REACH OUT
-                <ArrowRight className="ml-3 h-5 w-5" />
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="px-8 py-12 md:px-16 md:py-20 bg-secondary">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-6">
-            <p className="text-muted-foreground mb-8 tracking-wide uppercase text-lg font-semibold">The Problem</p>
-
-            <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-16 text-balance">
-              Conventional approaches fail
-            </h2>
-
-            <blockquote className="font-serif text-xl md:text-2xl font-light italic text-center text-muted-foreground max-w-3xl mx-auto mb-20 ml-24 mr-6">
-              "I don't want to be consoled, distracted, or cheered up! I want someone I can lean on, so I can go through
-              this experience safely and make sense of it."
-            </blockquote>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Medicine</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Reduces grief to a "disorder" or timeline. The result is suppression, not integration
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Psychology</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Offers generalized stages that rarely fit individual reality, leaving people feeling misunderstood.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Behavioral Therapy</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Focuses on changing thoughts and behaviors without honoring the depth of emotional experience.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Religious Consolation</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Helpful to many, but may feel contrived or dismissive of your individual beliefs.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Well-meaning Advice</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    "Be strong, move on" devalues your pain and seems to be more about their comfort than yours.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-0 bg-card shadow-sm">
-                <CardContent className="p-4">
-                  <h3 className="font-serif text-lg mb-3 text-foreground">Esoteric Approaches</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Often lack evidence-based foundations and tell you what you want to hear.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-
-            <p className="text-muted-foreground leading-relaxed text-center max-w-2xl mx-auto">
-              All these approaches share a common theme: they feel disrespectful to the value of genuine human pain and
-              suffering, and dismissive of your particular situation.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="px-8 py-12 md:px-16 bg-background">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-lg font-semibold">My Approach</p>
-
-          <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance">The middle way</h2>
-
-          <p className="text-lg text-muted-foreground leading-relaxed mb-16">
-            Pain is not the enemy. Where others try to suppress, normalize, or console, I create space to fully feel and
-            integrate. I offer a structured, evidence-informed approach grounded in deep respect for your experience.
-          </p>
-
-          <div className="mb-16">
-            <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-8 border border-primary/20 max-w-xl mx-auto">
-              <h4 className="font-serif text-lg mb-6 text-left text-foreground">My Core Principles</h4>
-              <div className="space-y-4 text-left">
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div className="text-left">
-                    <span className="font-medium text-base block mb-1 text-foreground">The middle way</span>
-                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
-                      A balanced approach between medicalization and esoteric shortcuts, grounded in evidence and
-                      respect.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div className="text-left">
-                    <span className="font-medium text-base block mb-1 text-foreground">
-                      Continuing bonds over "moving on"
-                    </span>
-                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
-                      Honoring memory while releasing destructive pain. You don't need to "get over" someone you love.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div className="text-left">
-                    <span className="font-medium text-base block mb-1 text-foreground">Memory is sacred</span>
-                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
-                      Letting go of destructive pain does not mean betrayal of the one who has died.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div className="text-left">
-                    <span className="font-medium text-base block mb-1 text-foreground">Each person is unique</span>
-                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
-                      There is no single "right" way or timeline to grieve. Your experience is valid and individual.
-                    </p>
+      <section className="px-8 py-16">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Left side - Product mockup */}
+            <div className="relative">
+              <div className="bg-gray-100 rounded-lg p-8 transform rotate-3 shadow-xl">
+                <div className="bg-white rounded p-6 shadow-lg">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-black rounded-full mx-auto mb-4 flex items-center justify-center">
+                      <span className="text-white font-bold text-xl">MI</span>
+                    </div>
+                    <h3 className="font-bold text-lg mb-2">THE GUIDE TO</h3>
+                    <h3 className="font-bold text-lg mb-4">MEANINGFUL GRIEF</h3>
+                    <div className="text-xs text-gray-600 mb-4">
+                      YOUR GREATEST
+                      <br />
+                      ALLY TO
+                      <br />
+                      HEALING
+                    </div>
+                    <div className="bg-black text-white text-xs py-2 px-4 rounded">
+                      BREAKING THE
+                      <br />
+                      SILENCE
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <Button
-            variant="outline"
-            className="rounded-full px-12 py-6 text-base bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-          >
-            LEARN MORE
+            {/* Right side - Form and content */}
+            <div>
+              <h1 className="font-black text-5xl lg:text-6xl mb-6 leading-tight">
+                THE GUIDE TO
+                <br />
+                MEANINGFUL GRIEF
+              </h1>
+
+              <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+                Discover evidence-based strategies to transform grief into meaning and strength. Download your free
+                guide and learn the structured approach that helps discerning individuals navigate life's deepest
+                transitions.
+              </p>
+
+              {/* Form */}
+              <div className="space-y-4 mb-8">
+                <div className="grid grid-cols-2 gap-4">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    className="border border-gray-300 px-4 py-3 rounded focus:outline-none focus:border-black"
+                  />
+                  <input
+                    type="tel"
+                    placeholder="📞 Phone Number"
+                    className="border border-gray-300 px-4 py-3 rounded focus:outline-none focus:border-black"
+                  />
+                </div>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:border-black"
+                />
+                <div className="text-xs text-gray-600">
+                  <label className="flex items-start gap-2">
+                    <input type="checkbox" className="mt-1" />
+                    <span>I agree to the terms and conditions and want to join The Going Viral Newsletter!</span>
+                  </label>
+                </div>
+                <Button className="w-full bg-black hover:bg-gray-800 text-white py-4 text-lg font-bold">
+                  Get My Free Grief Guide Now
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-8 py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-black text-3xl mb-12 text-center">
+            WHAT YOU'LL LEARN
+            <br />
+            IN THIS FREE GUIDE
+            <br />
+            TO MEANINGFUL GRIEF
+          </h2>
+
+          <div className="space-y-6">
+            <div className="flex items-start gap-4">
+              <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></div>
+              <div>
+                <span className="font-bold">How to create meaning from grief in just 3 principles.</span>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></div>
+              <div>
+                <span className="font-bold">
+                  The proven frameworks used by leading grief specialists to help clients grow exponentially.
+                </span>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></div>
+              <div>
+                <span className="font-bold">
+                  Actionable strategies to increase stability, engagement, and healing across all life platforms.
+                </span>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></div>
+              <div>
+                <span className="font-bold">Real-world examples of grief success stories you can replicate.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-8 py-16">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="font-black text-3xl mb-12">FROM THE AUTHOR OF:</h2>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="flex items-center gap-8">
+              <div className="bg-gray-900 text-white p-8 rounded-lg shadow-xl">
+                <div className="text-center">
+                  <div className="text-red-500 text-4xl mb-4">☂</div>
+                  <h3 className="font-bold text-lg mb-2">THE MORTALITY</h3>
+                  <h3 className="font-bold text-lg mb-2">INSTITUTE</h3>
+                  <div className="text-sm">EVIDENCE-BASED GRIEF WORK</div>
+                </div>
+              </div>
+              <div>
+                <div className="bg-black text-white rounded-full w-20 h-20 flex items-center justify-center mb-4">
+                  <div className="text-center">
+                    <div className="flex text-yellow-400 text-sm">
+                      <Star className="w-3 h-3 fill-current" />
+                      <Star className="w-3 h-3 fill-current" />
+                      <Star className="w-3 h-3 fill-current" />
+                      <Star className="w-3 h-3 fill-current" />
+                      <Star className="w-3 h-3 fill-current" />
+                    </div>
+                    <div className="text-white font-bold text-lg">4.9</div>
+                    <div className="text-white text-xs">Amazon</div>
+                  </div>
+                </div>
+                <h4 className="font-bold text-lg">The Mortality Institute</h4>
+                <p className="text-sm text-gray-600">Evidence-based grief work</p>
+                <p className="text-sm text-gray-600 mt-2">
+                  "A must read in a world of constant transformation. This book is the answer to anyone looking to
+                  understand and grow your future of business."
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-8">
+              <div className="bg-black text-white rounded-full w-20 h-20 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="flex text-yellow-400 text-sm">
+                    <Star className="w-3 h-3 fill-current" />
+                    <Star className="w-3 h-3 fill-current" />
+                    <Star className="w-3 h-3 fill-current" />
+                    <Star className="w-3 h-3 fill-current" />
+                  </div>
+                  <div className="text-white font-bold text-lg">4.3</div>
+                  <div className="text-white text-xs">Amazon</div>
+                </div>
+              </div>
+              <div>
+                <div className="bg-white border-2 border-gray-200 p-6 rounded-lg shadow-lg">
+                  <h4 className="font-bold text-lg mb-2">HEALING THROUGH</h4>
+                  <h4 className="font-bold text-lg mb-2">MORTALITY</h4>
+                  <div className="text-sm text-gray-600">HOW I BUILT A MASSIVE GRIEF</div>
+                  <div className="text-sm text-gray-600">PRACTICE IN 30 DAYS</div>
+                  <div className="text-xs text-gray-500 mt-4">DR. [YOUR NAME]</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-8 py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-black text-3xl text-center mb-12">
+            MEET DR. [YOUR NAME]—THE STRATEGIST BEHIND
+            <br />
+            MEANINGFUL GRIEF SUCCESS
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6"></div>
+              <div className="text-center">
+                <h3 className="font-bold text-xl mb-2">DR. [YOUR NAME]</h3>
+              </div>
+            </div>
+
+            <div>
+              <p className="text-lg mb-6">
+                Dr. [Your Name] is a grief specialist who has helped celebrities, Fortune 500 companies, and
+                entrepreneurs navigate social media.
+              </p>
+              <p className="text-lg mb-6">
+                Over the past 10 years, Dr. [Your Name] has worked with over 1 million in just 30 days. Dr. [Your Name]
+                specializes in data-driven strategies that cut through the noise and drive massive engagement.
+              </p>
+              <p className="text-lg mb-6">
+                His methods have generated millions in revenue for his clients —and now he's sharing them with you.
+              </p>
+
+              <div className="mt-8">
+                <h4 className="font-bold mb-4">Trusted By The World's Most Loved Brands</h4>
+                <div className="flex items-center gap-8 text-gray-400">
+                  <span className="font-bold">NETFLIX</span>
+                  <span className="font-bold">GOOGLE</span>
+                  <span className="font-bold">APPLE</span>
+                  <span className="font-bold">MICROSOFT</span>
+                  <span className="font-bold">AMAZON</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-8 py-16">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-black text-3xl text-center mb-12">
+            WHAT OTHERS ARE SAYING ABOUT THE MORTALITY INSTITUTE AND DR. [YOUR NAME]
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-gray-100 rounded-lg overflow-hidden">
+              <div className="aspect-video bg-gray-300 relative">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <Play className="w-16 h-16 text-white bg-black bg-opacity-50 rounded-full p-4" />
+                </div>
+              </div>
+              <div className="p-6">
+                <div className="flex text-yellow-400 mb-2">
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                </div>
+                <h4 className="font-bold mb-2">Dr. Jordan Davis</h4>
+                <p className="text-sm text-gray-600">"Best grief guide I've ever read as a Cardiologist Doctor!"</p>
+              </div>
+            </div>
+
+            <div className="bg-gray-100 rounded-lg overflow-hidden">
+              <div className="aspect-video bg-gray-300 relative">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <Play className="w-16 h-16 text-white bg-black bg-opacity-50 rounded-full p-4" />
+                </div>
+              </div>
+              <div className="p-6">
+                <div className="flex text-yellow-400 mb-2">
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                </div>
+                <h4 className="font-bold mb-2">Chris Cobb</h4>
+                <p className="text-sm text-gray-600">
+                  "I gained 10 lbs because 3 people content turned into 6 figures by Chris"
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-gray-100 rounded-lg overflow-hidden">
+              <div className="aspect-video bg-gray-300 relative">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <Play className="w-16 h-16 text-white bg-black bg-opacity-50 rounded-full p-4" />
+                </div>
+              </div>
+              <div className="p-6">
+                <div className="flex text-yellow-400 mb-2">
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                </div>
+                <h4 className="font-bold mb-2">Sarah Johnson</h4>
+                <p className="text-sm text-gray-600">"This approach transformed how I process grief completely"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-8 py-16 bg-black text-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="font-black text-4xl lg:text-5xl mb-8">
+            Don't Miss Out—Start
+            <br />
+            Your Healing Journey
+            <br />
+            Today
+          </h2>
+
+          <p className="text-xl mb-12 text-gray-300">
+            Download your free guide and discover the evidence-based approach to meaningful grief recovery.
+          </p>
+
+          <Button className="bg-white text-black hover:bg-gray-100 px-12 py-4 text-lg font-bold rounded">
+            GET MY FREE GUIDE NOW
             <ArrowRight className="ml-3 h-5 w-5" />
           </Button>
         </div>
       </section>
 
-      <section className="px-8 py-12 md:px-16 bg-secondary">
+      <footer className="px-8 py-12 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-center text-lg font-semibold">
-            Who I Work With
+          <p className="text-sm text-gray-600 leading-relaxed text-center mb-8">
+            <strong>Disclaimer:</strong> This is not medical treatment and does not replace psychiatric or religious
+            care. I do not diagnose, prescribe, or treat any illness or disorder. This is a private therapeutic practice
+            dedicated to helping people live through the hardest passages of life with dignity. This is not a crisis
+            service; in an emergency, please contact local emergency resources or crisis hotlines immediately.
           </p>
 
-          <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-12 text-balance">
-            Who is this for?
-          </h2>
-
-          <p className="text-lg text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto mb-16">
-            It's not only when death strikes that we become aware of our mortality. Death is a big taboo, the elephant
-            in the room. We either try to ignore it or laugh at it. But coming to grips with death is the single most
-            important thing one can do in many life situations.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="space-y-6">
-              <h3 className="font-serif text-xl text-foreground">When To Reach Out</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <span className="font-medium text-foreground">Acute grief (first months after loss)</span>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <span className="font-medium text-foreground">Stuck or complicated grief</span>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <span className="font-medium text-foreground">Preparation for anticipated loss</span>
-                  </div>
-                </li>
-              </ul>
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-gray-200">
+            <div className="flex items-center gap-8 text-sm text-gray-600">
+              <a href="#" className="hover:text-black transition-colors">
+                Privacy
+              </a>
+              <a href="#" className="hover:text-black transition-colors">
+                Terms
+              </a>
+              <a href="mailto:contact@example.com" className="hover:text-black transition-colors">
+                Contact
+              </a>
             </div>
-
-            <div className="space-y-6">
-              <h3 className="font-serif text-xl text-foreground">Additional Situations</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <span className="font-medium text-foreground">Diagnosis with uncertain prognosis</span>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <span className="font-medium text-foreground">Existential and midlife transitions</span>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <span className="font-medium text-foreground">Professional burnout with mortality</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="mt-16 text-center">
-            <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Whether you're facing fresh loss, stuck in patterns that no longer serve you, or confronting mortality in
-              unexpected ways, this work offers a structured path through the complexity. You don't have to navigate
-              this alone, and you don't have to accept approaches that feel dismissive of your experience. There is a
-              way to honor both your pain and your capacity for growth.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="px-8 py-12 md:px-16 bg-background">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-lg font-semibold">How We Work</p>
-
-          <h2 className="font-serif text-4xl md:text-5xl font-light mb-16 text-balance">Structured programs</h2>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-0 bg-card shadow-sm">
-              <CardContent className="p-8 text-center">
-                <h3 className="font-serif text-xl mb-4 text-foreground">Quick Relief</h3>
-                <p className="text-sm text-muted-foreground mb-6">Single focused session</p>
-                <p className="text-muted-foreground leading-relaxed mb-8">
-                  Immediate stabilization and resourcing when grief feels acute. Creating safety during the most
-                  difficult moments.
-                </p>
-                <Button
-                  variant="outline"
-                  className="rounded-full px-8 py-3 bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                >
-                  REACH OUT
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 bg-card shadow-sm ring-2 ring-primary/20">
-              <CardContent className="p-8 text-center">
-                <div className="flex items-center justify-center gap-2 mb-4">
-                  <h3 className="font-serif text-xl text-foreground">Core Series</h3>
-                  <span className="bg-primary text-primary-foreground text-xs px-3 py-1 rounded-full">
-                    Most Popular
-                  </span>
-                </div>
-                <p className="text-sm text-muted-foreground mb-6">5-6 week structured program</p>
-                <p className="text-muted-foreground leading-relaxed mb-8">
-                  Comprehensive processing and integration work. Addressing unfinished matters, guilt, and creating a
-                  path toward living forward with clarity.
-                </p>
-                <Button className="rounded-full px-8 py-3 bg-primary hover:bg-primary/90 transition-all duration-300">
-                  REACH OUT
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 bg-card shadow-sm">
-              <CardContent className="p-8 text-center">
-                <h3 className="font-serif text-xl mb-4 text-foreground">Extended Support</h3>
-                <p className="text-sm text-muted-foreground mb-6">Up to 6 months</p>
-                <p className="text-muted-foreground leading-relaxed mb-8">
-                  Ongoing accompaniment for complex grief, professional burnout, or existential transitions requiring
-                  deeper work.
-                </p>
-                <Button
-                  variant="outline"
-                  className="rounded-full px-8 py-3 bg-transparent border-2 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                >
-                  REACH OUT
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      <section className="px-8 py-12 md:px-16 bg-secondary">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-center text-lg font-semibold">
-            About Me
-          </p>
-
-          <h2 className="font-serif text-4xl md:text-5xl font-light text-center mb-12 text-balance">
-            A different path
-          </h2>
-
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              M.D. specialized in psychiatry, with postdoctoral fellowships at Yale and UCSD. I chose not to become
-              licensed in the U.S. because I did not like the idea of reducing human suffering to diagnoses and
-              prescriptions.
-            </p>
-
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Through years of research and practice, I developed a method integrating subconscious work, regression,
-              and therapeutic rituals — structured, evidence-based, and deeply transformative.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="px-8 py-12 md:px-16 bg-background">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-muted-foreground mb-8 tracking-wide uppercase text-center text-lg font-semibold">Vision</p>
-
-          <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance text-center">
-            Through darkness to the light
-          </h2>
-
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              Mortality touches every area of life, yet our culture offers little genuine support beyond rigid religious
-              practices or medical models that pathologize normal human experience.
-            </p>
-
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Accepting mortality isn't grim resignation. It's the path to longevity and fulfillment. By facing death
-              directly, we allow ourselves to discover our personal meaning and the real joy of life.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="px-8 py-12 md:px-16 text-background bg-sidebar-foreground">
-        <div className="max-w-4xl mx-auto">
-          <p className="font-medium text-background/70 mb-8 tracking-wide uppercase text-center text-lg">
-            Next Steps
-          </p>
-
-          <h2 className="font-serif text-4xl md:text-5xl font-light mb-12 text-balance text-center text-background">
-            Interested in learning more?
-          </h2>
-
-          <p className="text-lg text-background/80 leading-relaxed max-w-3xl mx-auto mb-16 text-center">
-            Download the whitepaper to understand the approach in detail, or reach out directly to discuss your specific
-            situation.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="rounded-full px-12 py-6 text-base bg-background text-foreground hover:bg-background/90 transition-all duration-300 shadow-lg"
-            >
-              DOWNLOAD WHITEPAPER
-              <ArrowRight className="ml-3 h-5 w-5" />
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="rounded-full px-12 py-6 text-base bg-transparent border-2 border-background/30 text-background hover:bg-background hover:text-foreground transition-all duration-300"
-            >
-              REACH OUT
-              <ArrowRight className="ml-3 h-5 w-5" />
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      <footer className="px-8 py-12 md:px-16 border-t border-border/50">
-        <div className="max-w-6xl mx-auto">
-          <div className="mt-12 pt-8 border-t border-border/30">
-            <p className="text-muted-foreground leading-relaxed max-w-4xl mx-auto text-center text-sm">
-              <strong>Disclaimer:</strong> This is not medical treatment and does not replace psychiatric or religious
-              care. I do not diagnose, prescribe, or treat any illness or disorder. This is a private therapeutic
-              practice dedicated to helping people live through the hardest passages of life with dignity. This is not a
-              crisis service; in an emergency, please contact local emergency resources or crisis hotlines immediately.
-            </p>
-          </div>
-
-          <div className="mt-8 pt-8 border-t border-border/30">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
-              <div className="flex items-center gap-8 text-sm text-muted-foreground">
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Privacy
-                </a>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Terms
-                </a>
-                <a href="mailto:contact@example.com" className="hover:text-foreground transition-colors">
-                  Contact
-                </a>
-              </div>
-              <div className="text-sm text-muted-foreground">© 2025 The Mortality Institute. All rights reserved.</div>
-            </div>
+            <div className="text-sm text-gray-600">© 2025 The Mortality Institute. All rights reserved.</div>
           </div>
         </div>
       </footer>
