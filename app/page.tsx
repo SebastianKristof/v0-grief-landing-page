@@ -24,7 +24,7 @@ export default function HomePage() {
             </p>
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal leading-tight text-balance mb-8 text-foreground">
-              Others suppress grief; I help you find its meaning
+              Others suppress grief; I help you <span className="bg-primary/15 text-primary px-2 py-0.5 rounded-md">find its meaning</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-12">
@@ -111,7 +111,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <p className="text-muted-foreground leading-relaxed text-center max-w-2xl mx-auto">
+            <p className="text-muted-foreground leading-relaxed text-center max-w-2xl mx-auto text-lg md:text-xl">
               All these approaches share a common theme: they feel disrespectful to the value of genuine human pain and
               suffering, and dismissive of your particular situation.
             </p>
@@ -130,52 +130,38 @@ export default function HomePage() {
             integrate. I offer a structured, evidence-informed approach grounded in deep respect for your experience.
           </p>
 
-          <div className="mb-16">
-            <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-8 border border-primary/20 max-w-xl mx-auto">
-              <h4 className="font-serif text-lg mb-6 text-left text-foreground">My Core Principles</h4>
-              <div className="space-y-4 text-left">
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div className="text-left">
-                    <span className="font-medium text-base block mb-1 text-foreground">The middle way</span>
-                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
-                      A balanced approach between medicalization and esoteric shortcuts, grounded in evidence and
-                      respect.
-                    </p>
-                  </div>
-                </div>
+          <div className="mb-16 max-w-3xl mx-auto">
+            <h4 className="font-serif text-2xl md:text-3xl mb-12 text-center text-foreground">My Core Principles</h4>
+            <div className="space-y-8">
+              <div className="text-center">
+                <h5 className="font-serif text-xl md:text-2xl mb-4 text-primary">The middle way</h5>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+                  A balanced approach between medicalization and esoteric shortcuts, grounded in evidence and
+                  respect.
+                </p>
+              </div>
 
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div className="text-left">
-                    <span className="font-medium text-base block mb-1 text-foreground">
-                      Continuing bonds over "moving on"
-                    </span>
-                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
-                      Honoring memory while releasing destructive pain. You don't need to "get over" someone you love.
-                    </p>
-                  </div>
-                </div>
+              <div className="text-center">
+                <h5 className="font-serif text-xl md:text-2xl mb-4 text-primary">
+                  Continuing bonds over "moving on"
+                </h5>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+                  Honoring memory while releasing destructive pain. You don't need to "get over" someone you love.
+                </p>
+              </div>
 
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div className="text-left">
-                    <span className="font-medium text-base block mb-1 text-foreground">Memory is sacred</span>
-                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
-                      Letting go of destructive pain does not mean betrayal of the one who has died.
-                    </p>
-                  </div>
-                </div>
+              <div className="text-center">
+                <h5 className="font-serif text-xl md:text-2xl mb-4 text-primary">Memory is sacred</h5>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+                  Letting go of destructive pain does not mean betrayal of the one who has died.
+                </p>
+              </div>
 
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div className="text-left">
-                    <span className="font-medium text-base block mb-1 text-foreground">Each person is unique</span>
-                    <p className="text-sm text-muted-foreground leading-relaxed text-left">
-                      There is no single "right" way or timeline to grieve. Your experience is valid and individual.
-                    </p>
-                  </div>
-                </div>
+              <div className="text-center">
+                <h5 className="font-serif text-xl md:text-2xl mb-4 text-primary">Each person is unique</h5>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+                  There is no single "right" way or timeline to grieve. Your experience is valid and individual.
+                </p>
               </div>
             </div>
           </div>
@@ -197,7 +183,7 @@ export default function HomePage() {
           </p>
 
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-12 text-balance">
-            Who is this for?
+            Not Just Grief
           </h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto mb-16">
@@ -208,24 +194,24 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6">
-              <h3 className="font-serif text-xl text-foreground">When To Reach Out</h3>
+              <h3 className="font-serif text-xl text-foreground">Key Areas Of Focus</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <span className="font-medium text-foreground">Acute grief (first months after loss)</span>
+                    <span className="font-medium text-foreground">Restoring Sleep and Function After Loss</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <span className="font-medium text-foreground">Stuck or complicated grief</span>
+                    <span className="font-medium text-foreground">Preparation for Anticipated Loss</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <span className="font-medium text-foreground">Preparation for anticipated loss</span>
+                    <span className="font-medium text-foreground">Facing Serious Diagnosis</span>
                   </div>
                 </li>
               </ul>
@@ -237,13 +223,19 @@ export default function HomePage() {
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <span className="font-medium text-foreground">Diagnosis with uncertain prognosis</span>
+                    <span className="font-medium text-foreground">Quick relief from the acute pain of loss</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <span className="font-medium text-foreground">Existential and midlife transitions</span>
+                    <span className="font-medium text-foreground">Stuck or complicated grief</span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="font-medium text-foreground">“Little deaths” of life transitions</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -258,10 +250,7 @@ export default function HomePage() {
 
           <div className="mt-16 text-center">
             <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Whether you're facing fresh loss, stuck in patterns that no longer serve you, or confronting mortality in
-              unexpected ways, this work offers a structured path through the complexity. You don't have to navigate
-              this alone, and you don't have to accept approaches that feel dismissive of your experience. There is a
-              way to honor both your pain and your capacity for growth.
+            Whether you are facing acute pain of loss, anticipatory grief, serious illness, or confronting mortality in unexpected ways, this work offers a structured path through the complexity. You do not have to navigate this alone - or accept approaches that feel dismissive of your experience. There is a way to honor pain so that it becomes both meaningful and a source of strength.
             </p>
           </div>
         </div>
